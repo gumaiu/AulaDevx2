@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-MEN</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    
+     <link rel="stylesheet" href="./src/css/estilos.css">
+     <link rel="stylesheet" href="./src/css/reset.css">
+     <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+
+   <HEADER class="cabecalho">
+     <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+   </HEADER>
+          
+
+   <MAIN class="selecao-de-personagens">
+    <section class="personagens">
+        <h1 class="titulo"> Selecione um X-Men</h1>
+        <ul class="lista-de-personagem">
+            <li class="personagem selecionado" id="ciclope" data-name="Ciclope"
+            data-descricao="Laser ocular">
+                <img src="./src/imagens/card-ciclope.jpg"
+                 alt="X-Men Ciclope"> 
+            <li class="personagem" id="jean-grey" data-name="Jean Grey" 
+            data-descricao="Poderes psíquicos">
+                <img src="./src/imagens/card-jean-grey.jpg"
+                 alt="X-Men Jean jean-grey"> 
+            <li class="personagem" id="lince-negra" data-name="Lince Negra"
+            data-descricao="Intangibilidade, Capacidade de andar no ar">
+                    <img src="./src/imagens/card-lince-negra.jpg"
+                     alt="X-Men Lince Negra"> 
+            <li class="personagem" id="magneto" data-name="Magneto"
+            data-descricao="Controla o campo magnético">
+                    <img src="./src/imagens/card-magneto.jpg"
+                     alt="X-Men Magneto"> 
+            <li class="personagem" id="noturno" data-name="Noturno"
+            data-descricao="Teletransporte">
+                    <img src="./src/imagens/card-noturno.jpg"
+                     alt="X-Men Noturno"> 
+            <li class="personagem" id="tempestade" data-name="Tempestade"
+            data-descricao="Controla o clima">
+                     <img src="./src/imagens/card-tempestade.jpg"
+                     alt="X-Men Tempestade"> 
+            <li class="personagem" id="vampira" data-name="Vampira"
+            data-descricao="Absorve poderes e força de quem ela toca">
+                    <img src="./src/imagens/card-vampira.jpg "
+                    alt="X-Men vampira"> 
+            <li class="personagem" id="wolverine" data-name="Wolverine"
+            data-descricao="Fator de cura e esqueleto de adamantium">
+                    <img src="./src/imagens/card-wolverine.jpg"
+                    alt="X-Men Wolverine"> 
+        
+                    </li>
+        </ul>
+    </section>
+    <section class="personagem-selecionado">
+        <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem selecionado">
+             <div class="informacoes-personagem"> 
+             <h2 class="nome-personagem" id="nome-personagem">CICLOPE</h2>
+             <p class="descricao-personagem" id="descricao-personagem">Laser ocular</p>     
+             </div> 
+           
+ 
+    </section>
+   </MAIN> 
+   <script src="./src/js/index.js"></script>
+</body>
+</html>
